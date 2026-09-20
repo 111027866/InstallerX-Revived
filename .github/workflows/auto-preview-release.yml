@@ -1,6 +1,7 @@
 name: Preview Release
 
 on:
+  workflow_dispatch:
   push:
     branches: [ "main" ]
     # Build only when application code or build inputs change.
